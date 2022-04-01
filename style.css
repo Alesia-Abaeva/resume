@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+
+
+.container{
+    margin: auto;
+    max-width: 1000px;
+    padding: 25px;
+    padding-top: 30px;
+    background-color:  rgba(0, 0, 0, 0.35);
+    
+}
+
+
+body{
+    font-family: 'Franklin Gothic Medium',  sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    background-image: url('./icon/pattern-tales-and-legends-wallpaper.png'); 
+    
+   
+}
+
+.card   {
+    margin-bottom: 10px;
+    color: antiquewhite;
+}
+
+.foto{
+    width: 350px;
+    border-radius: 35px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    }
+    
+
+
+h4 {
+    color: rgb(82, 16, 139);
+    border-left: 6px solid rgb(127, 105, 178);
+    background-color: #faebd7;
+    padding: 20px 15px 20px 20px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top-right-radius: 15px; 
+    font-size: 20px;
+
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background: rgb(127, 105, 178);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 45px;  
+}
+.info-tx {
+    color: antiquewhit;
+    padding: 15px;
+    margin: 15px;
+}
+.info-tx p {
+    font-weight: 400; 
+    margin: 0;   
+}
+
+.icon{
+    width: 65px;
+}
+
+
+.social a{
+    padding: 10px;
+    color: antiquewhite;
+    margin-top: 15px;
+    }
+
+.a {padding-top: 5px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  /* width: 50%; */
+ 
+   
+}
+
+.btn-s {
+    padding: 10px;
+    margin: 5px auto;
+}
+.social {
+    background: rgb(127, 105, 178);
+    padding-bottom:25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;  
+}
+
+.hobby {
+    background: rgb(127, 105, 178);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; 
+    padding-bottom: 10px;
+}
+
+.hobby-list {
+    margin: 0;
+    padding: 10px 10px 10px 35px;
+    list-style: circle;
+
+}
+.hobby-list li {
+   padding: 0px 10px 3px 10px ;
+   }
+
+
+.info-main {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: rgb(127, 105, 178);
+    padding-bottom: 10px;
+    max-width: 1000px;
+}
+
+/* table {
+    background: rgb(127, 105, 178);
+    padding: 10px;
+}*/
+/* thead th {
+    background: rgb(127, 105, 178)!important; 
+    padding-bottom: 15px;
+} */
+
+.table{
+    max-width: 1000px;
+    width: 100%;
+    padding: 10px;
+    }
+
+.table td{
+    
+    padding: 10px 20px;
+    border-radius: 7px; 
+    max-width: 1000px;
+}
+
+.table tr:nth-child(odd){
+    background:#947cd6;
+}
+.table tr:nth-child(even){
+    background:#715fa3;
+}
+.table td:hover {
+    background: rgb(238, 226, 211);
+    font-style: italic;
+    font-weight: 900; 
+    color: rgb(127, 105, 178);
+}
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: rgb(127, 105, 178);
+    padding-bottom: 20px; 
+    }
+
+
+.form-group{   
+    padding-left: 20px; 
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.form-raw {
+    
+    display: flex;
+    
+}
+
+.form-group label{
+    display: block;
+    font-size: 18px;
+    color: antiquewhite;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid antiquewhite;
+    color: antiquewhite;
+    font-size: 25px;
+    padding: 15px 100px 10px 0px;
+    outline: none;
+    /* outline: none; - рамка в поле ввода значений*/
+    font-family: inherit;
+}
+
+.form-group input::placeholder {
+    color: #ccc;
+    font-size: 15px;
+    font-style: italic
+}
+.form-group textarea::placeholder{
+    color: #ccc;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+ 
+.btn{
+    color: rgb(127, 105, 178);
+    /* background-image: linear-gradient( 109.6deg, rgb(127, 105, 178) 11.2%, rgba(164, 69, 255, 1) 91.1%); */
+    background: antiquewhite;   
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 750;
+    cursor: pointer;
+    transition: all .15s;  
+    margin: 15px;
+}
+
+.btn:hover{
+    color: white;
+    opacity: .8;
+    /* background: linear-gradient(to right, #f5af19, #f12711) */
+    background: rgb(70, 50, 116);
+}
+
+.btn:active{
+    color: rgb(28, 6, 32);
+}
+
+
+.btn-s {
+    text-decoration: none;
+    opacity: 0.9;
+    
+}
+.cls-1 {
+    color:#d8d2d8}
+
+.icon:hover{
+    width: 85px;
+    transition: all .15s
+}
+.cls-1:hover{
+  fill: #d8d2d8;
+  transition: all .15s
+}
+.cls-1:visited{
+    fill: #faebd7;}
+    
+.cls-1:active{
+    fill: rgb(28, 6, 32);}
+    
+.Background {
+    fill: #947cd6
+    }
+
+.Background:hover{
+    fill: rgb(70, 50, 116);
+    transition: all .15s
+}
+.Background:visited{
+    fill: #faebd7;}
+
+.Background:active{
+    fill: rgb(28, 6, 32);}
+
+
+
+
+@media (max-width:700px) {
+    .container{
+        font-size: 10px;
+        padding: 5px;
+        margin: auto;
+    }
+    .info{
+        display: block;
+            
+        }
+    .foto{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    h4 { font-size: 11px;
+        }
+    .form-group label{
+            font-size: 11px;
+            
+        }
+
+ 
+    .form-group input,
+    .form-group textarea{
+    font-size: 11px;}
+
+    .form-group input::placeholder {
+        color: #ccc;
+        font-size: 10px;
+        font-style: italic
+    }
+    .form-group textarea::placeholder{
+        color: #ccc;
+        font-size: 10px;
+        font-style: italic;
+    
+    }
+}
+    
+
+
+    
