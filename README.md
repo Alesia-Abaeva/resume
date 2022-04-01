@@ -1,4 +1,4 @@
 # my resume
 
-## resolt  here
+## result  here
 [my first work ](https://alesia-abaeva.github.io/resume/)
